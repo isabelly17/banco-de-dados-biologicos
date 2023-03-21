@@ -1,0 +1,19 @@
+-- create a table
+CREATE TABLE biologia (
+  ano INT(4) PRIMARY KEY,
+  eventos VARCHAR(250) NOT NULL,
+  localidade VARCHAR (30) NOT NULL,
+descricao VARCHAR (255) NOT NULL,
+);
+-- insert some values
+INSERT INTO biologia VALUES (1883, 'brasil ', vacina febre amarela', 'criaçao da vacina');
+INSERT INTO biologia VALUES ( 1976,  África', doença ebola', 'descoberta da doença');
+INSERT INTO biologia VALUES (1990, 'japao', vacina varicela', foi utilizado em paises ocidentais');
+INSERT INTO biologia VALUES (2003, 'china', doença respiratoria', doença altamente transmissivel');
+INSERT INTO biologia VALUES (2006,'vacina HPV', 'australia' ,imunizacao da saude');
+INSERT INTO biologia VALUES (2009', 'vacina pneomococia', primeira dose no brasil);
+INSERT INTO biologia VALUES (2009 2010',mexico','causada por uma mutação do vírus Influenza');
+INSERT INTO biologia VALUES (2019', 
+INSERT INTO biologia VALUES ()
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
